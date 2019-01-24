@@ -4,4 +4,4 @@ RUN cargo install tokei
 VOLUME ["/data"]
 WORKDIR /data
 
-CMD ["tokei /data"]
+CMD ["tokei", "/data"]
